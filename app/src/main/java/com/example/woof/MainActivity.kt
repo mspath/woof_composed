@@ -87,12 +87,17 @@ fun WoofTopAppBar(modifier: Modifier = Modifier) {
  */
 @Composable
 fun WoofApp() {
-        LazyColumn(modifier = Modifier.background(MaterialTheme.colors.background)) {
-            item {
+        Scaffold(
+            topBar = {
                 WoofTopAppBar()
             }
-            items(dogs) {
-                DogItem(dog = it)
+        ) { contentPadding ->
+            LazyColumn(modifier = Modifier
+                .background(MaterialTheme.colors.background)
+                .padding(contentPadding)) {
+                items(dogs) {
+                    DogItem(dog = it)
+                }
             }
         }
 }
