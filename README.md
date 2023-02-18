@@ -17,9 +17,9 @@ This app is based on the [Material Theming with Jetpack Compose] Codelab.
 Environment
 
 - Kotlin 1.7.20
-- Android Studio Dolphin 2021.3.1
+- Android Studio Electric Eel 2022.1.1
 - Compose 1.3.1
-- Gradle Plugin 7.3.1
+- Gradle Plugin 7.4.1
 
 ---
 
