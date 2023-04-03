@@ -16,10 +16,10 @@ This app is based on the [Material Theming with Jetpack Compose] Codelab.
 
 Environment
 
-- Kotlin 1.7.20
+- Kotlin 1.8.0
 - Android Studio Electric Eel 2022.1.1
-- Compose 1.3.1
-- Gradle Plugin 7.4.1
+- Compose BOM 2023.01.00
+- Gradle Plugin 7.4.2
 
 ---
 
@@ -27,5 +27,5 @@ Environment
 language: kotlin
 repo: woofcomposed
 status: public archived
-updated: 2022-12-03
+updated: 2023-04-03
 ```
