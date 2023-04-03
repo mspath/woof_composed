@@ -25,7 +25,7 @@ Environment
 
 ```
 language: kotlin
-repo: woofcomposed
+repo: woof_composed
 status: public archived
 updated: 2023-04-03
 ```
